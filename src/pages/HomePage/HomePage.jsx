@@ -1,7 +1,7 @@
 import Section from 'components/Section';
 import React from 'react';
 import { useSelector } from 'react-redux';
-import { Link, Outlet } from 'react-router-dom';
+import { Outlet } from 'react-router-dom';
 import { selectLoggedIn } from 'Redux/auth/auth-selectors';
 import css from './HomePage.module.css';
 
